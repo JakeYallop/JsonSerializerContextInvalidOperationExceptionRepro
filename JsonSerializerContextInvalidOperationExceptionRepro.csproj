@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+	  <!-- Change this as required. The issue is still present in 6.0.2. -->
+    <PackageReference Include="System.Text.Json" Version="6.0.1" />
+  </ItemGroup>
+
 </Project>
